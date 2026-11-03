@@ -23,18 +23,19 @@ window.CONFIG = {
   CHECKOUT: "",
 
   // Pilha de valor: "valor" é o preço de 1 ano de cada entrega, para UM acesso.
+  // Âncora do dono (02/11/2026, à noite): só a Comunidade VIP muda (= o preço da página); o resto é fixo e soma 1.132 por ano. Âncora = (VIP + 1.132) x 2.
   // A âncora da página é a soma × 2 anos × 2 acessos (pedido do Pedro, 31/10/2026).
   // PROPOSTA (âncora menor que a da oferta-black-tr): soma R$ 1.029 por ano, × 2 anos = R$ 2.058.
   PRINCIPAIS: [
     { nome: "Comunidade VIP no WhatsApp", desc: "Grupos separados por região, com mais de 1.000 promoções por semana e todas as datas disponíveis, saindo de todo o Brasil para o Brasil e o mundo.", valor: 97, oficial: false },
-    { tag: "Novidade", nome: "Plataforma Central de Voos", desc: "Tudo da Central no seu celular: busca personalizada entre todas as promoções ativas e monitoramento das suas passagens com IA.", valor: 297, oficial: false },
-    { nome: "Workshop: O Segredo das Passagens Baratas", desc: "Um encontro ao vivo pra entender de vez como chegar nas passagens mais baratas que existem.", valor: 197, oficial: false },
+    { tag: "Novidade", nome: "Plataforma Central de Voos", desc: "Tudo da Central no seu celular: busca personalizada entre todas as promoções ativas e monitoramento das suas passagens com IA.", valor: 397, oficial: false },
+    { tag: "Ao vivo", nome: "Workshop: O Segredo das Passagens Baratas", desc: "Um encontro ao vivo pra entender de vez como chegar nas passagens mais baratas que existem.", valor: 247, oficial: false },
   ],
   BONUS: [
-    { nome: "Curso Completo de Milhas", desc: "Pra quem quiser aprender a viajar pagando só a taxa de embarque. Você não precisa saber nada disso pra aproveitar o VIP.", valor: 197, oficial: false },
+    { nome: "Curso Completo de Milhas", desc: "Pra quem quiser aprender a viajar pagando só a taxa de embarque. Você não precisa saber nada disso pra aproveitar o VIP.", valor: 147, oficial: false },
     { nome: "Grupo de Estratégias", desc: "Transferências bonificadas, promoções de compra de milhas e as melhores oportunidades, em primeira mão.", valor: 97, oficial: false },
-    { nome: "Suporte Jurídico Gratuito", desc: "Advogada especialista no direito do passageiro aéreo pra qualquer problema nas suas viagens.", valor: 97, oficial: false },
-    { nome: "Guia dos Melhores Cartões de Crédito", desc: "Pra transformar cada gasto do seu dia a dia em viagens inesquecíveis.", valor: 47, oficial: false },
+    { nome: "Suporte Jurídico Gratuito", desc: "Advogada especialista no direito do passageiro aéreo pra qualquer problema nas suas viagens.", valor: 147, oficial: false },
+    { nome: "Guia dos Melhores Cartões de Crédito", desc: "Pra transformar cada gasto do seu dia a dia em viagens inesquecíveis.", valor: 97, oficial: false },
   ],
 
   // Depoimentos em vídeo do vturb, escolhidos entre os de depoimentos.centraldevoos.com. capa = arquivo em midia/depoimentos/.
